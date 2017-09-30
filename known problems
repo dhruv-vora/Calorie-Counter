@@ -1,0 +1,11 @@
+In the hungry.php and contactus.php page, when not logged in and the user presses the snap it! button, an alert should pop up saying log in to use this feature and redirect to index.php page. The redirection is happening but the alert is not coming up.
+
+Solved-Need to change the navigation tabs depending on whether the user is logged in or not.
+
+When the user registers, a page should come up which displays the message that you have been registered and click on this link to log in. Write now it is directing to the snapit.php page
+
+In the login and registration forms, when an error occurs in the data and an alert box comes up, after pressing ok, all the fields become blank but that should not happen.Passwords should be blank but not the remaining fields.
+
+Need to implement api and work on calculating the calories intake of each user. Seperate column has been provided in the users table for calorie.
+
+Need to style the pages.
