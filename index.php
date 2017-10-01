@@ -12,78 +12,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script async src="//www.google-analytics.com/analytics.js"></script>
-  <style>
-      body {
-          width: 80%;
-          margin: 30px auto;
-          font-family: sans-serif;
-          background-image: url("images/abc.JPG");
-          background-size: cover;
-        }
-
-        img {
-          border: none;
-          max-width: 100%;
-          height: auto;
-          display: block;
-          background: #ccc;
-          transition: transform .2s ease-in-out;
-          opacity: 0.5 ;
-        }
-        img:hover {
-          transform: scale(0.95);
-        }
-        ::-webkit-input-placeholder 
-        {
-        color: white;
-    }
-
-        .login { 
-  position: absolute;
-  top: 30%;
-  left: 80%;
-  margin: -110px 0 0 -150px;
-  width:300px;
-  height:400px;
-}
-.login h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
-
-input { 
-  width: 100%; 
-  margin-bottom: 10px; 
-  background: rgba(0,0,0,0.3);
-  border: none;
-  outline: none;
-  height: 50px;
-  padding: 10px;
-  font-size: 13px;
-  color: #fff;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-  border: 1px solid rgba(0,0,0,0.3);
-  border-radius: 4px;
-  box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
-  -webkit-transition: box-shadow .5s ease;
-  -moz-transition: box-shadow .5s ease;
-  -o-transition: box-shadow .5s ease;
-  -ms-transition: box-shadow .5s ease;
-  transition: box-shadow .5s ease;
-}
-input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
-.btn
-{
-  background-color: orange;
-}
-.error
-{
- color: white;
-  
-}
-.footer
-{
-  height: 50px;
-}
-</style>
-
+    
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
 	<body>	
