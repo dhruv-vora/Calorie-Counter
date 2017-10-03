@@ -127,7 +127,7 @@
     if(document.signup.pass.value!=document.signup.newpass.value)
      { 
       document.signup.pass.focus();
-      alert("passwords do not match");
+      alert("Passwords do not match");
       return false;
       }
       return true();

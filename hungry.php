@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>CalCount</title>
+    <title>Hungry?</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -43,7 +43,6 @@
                     
                 </ul>
 
-
                 <ul class="nav navbar-nav navbar-right">
                   
                   <?php
@@ -54,7 +53,7 @@
                     }
                     else 
                     {
-                      echo '<li><a href="#" onclick=check()>Snap It!</a></li>';   //an alert should pop up saying log in to use this feature but thats not coming up
+                      echo '<li><a href="#" onclick=chec(k)>Snap It!</a></li>';   //an alert should pop up saying log in to use this feature but thats not coming up
                     }
                   ?>  
               </ul>

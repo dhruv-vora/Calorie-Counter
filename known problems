@@ -2,7 +2,7 @@ Solved - In the hungry.php and contactus.php page, when not logged in and the us
 
 Solved - Need to change the navigation tabs depending on whether the user is logged in or not.
 
-When the user registers, a page should come up which displays the message that you have been registered and click on this link to log in. Write now it is directing to the snapit.php page
+Solved - When the user registers, a page should come up which displays the message that you have been registered and click on this link to log in. Write now it is directing to the snapit.php page
 
 In the login and registration forms, when an error occurs in the data and an alert box comes up, after pressing ok, all the fields become blank but that should not happen.Passwords should be blank but not the remaining fields.
 
@@ -12,4 +12,6 @@ Need to style the pages.
 
 Solved (Left - Need to try storing captions in database) - Make the code in the hungry.php page efficient and small
  
-Make the blog.php page and add seperate page for admin if time permits and if it's possible
+Solved - Make the blog.php page and add seperate page for admin if time permits and if it's possible
+
+The Map api in contactus.php page is not working. Kanksha will have to figure that.
