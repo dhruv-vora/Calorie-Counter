@@ -31,12 +31,20 @@ if (isset($_POST['login']))
 			} 
 			else if ($hashedPwdCheck == true) 
 			{
+				
 				//Log in the user here
 				$_SESSION['u_first'] = $row['first'];
 				$_SESSION['u_last'] = $row['last'];
 				$_SESSION['u_email'] = $row['email'];
-				$_SESSION['u_calorie'] = $row['calorie'];
-				header("Location: ../snapit.php?login=success");
+				$_SESSION['u_calorie'] = $row['calorie']; 
+				if($_SESSION['u_first']=='admin')
+				{
+					header("Location: ../review.php");
+				}
+				else
+				{
+					header("Location: ../snapit.php?login=success");
+				}
 				exit();
 			}
 		}

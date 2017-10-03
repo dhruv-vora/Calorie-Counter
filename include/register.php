@@ -36,7 +36,7 @@ if (isset($_POST['signup'])) //checking if register button has been pressed
 			//Insert the user into the database
 			$sql = "INSERT INTO users (first,last,email,password) VALUES ('$first', '$last', '$email', '$hashedPwd');";
 			mysqli_query($conn, $sql);
-			header("Location: ../snapit.php?register=success");	//change the link to a new page which displays the message that you have been registered and click on this link to log in
+			header("Location: ../registered.php?register=success");	//done - change the link to a new page which displays the message that you have been registered and click on this link to log in
 			exit();
 		}
 	}
