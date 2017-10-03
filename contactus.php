@@ -61,7 +61,7 @@
 	<div class="container">
 		<h2> Contact Us </h2>
 		<dl>
-			<dt>Call us</dt><dd>Rushabh: 9769900911</dd>
+			<dt>Call us</dt><dd>Rushabh Vinchhi: 9769900911</dd><dd>Dhruv Vora: 9029008227</dd><dd>Kanksha Zaveri: 9930832588</dd>
 			<dt>Office Address</dt> <dd>D.J.Sanghvi College of Engineering </dd><dd>Bhaktivedanta Swami Marg </dd> <dd>Mumbai - 400091</dd>
 			<dt>Email ID</dt>
 			<dd>calcount@gmail.com</dd>
