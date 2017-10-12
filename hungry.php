@@ -53,7 +53,7 @@
                     }
                     else 
                     {
-                      echo '<li><a href="#" onclick=chec(k)>Snap It!</a></li>';   //an alert should pop up saying log in to use this feature but thats not coming up
+                      echo '<li><a href="#" onclick=check()>Snap It!</a></li>';   //an alert should pop up saying log in to use this feature but thats not coming up
                     }
                   ?>  
               </ul>
