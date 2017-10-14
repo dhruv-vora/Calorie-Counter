@@ -18,7 +18,7 @@
 
             <!-- Logo -->
             <div class="navbar-header">
-                <a href="#" class="navbar-brand">CALCOUNT</a>
+                <a href="#" class="navbar-brand">Yummly</a>
             </div>
 
             <!-- Menu Items -->
@@ -31,7 +31,7 @@
           
                 </ul>
         <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#" onclick="alert('Please Log-in First to use the Snap It! Feature');">Snap It!</a></li> 
+                    <li><a href="#" onclick="alert('Please Log-in First to use the SuperCook Feature');">SuperCook</a></li> 
                 </ul>
             </div>
 

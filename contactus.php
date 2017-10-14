@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>CalCount</title>
+    <title>Contact Us</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -19,7 +19,7 @@
 
             <!-- Logo -->
             <div class="navbar-header">
-                <a href="#" class="navbar-brand">CALCOUNT</a>
+                <a href="#" class="navbar-brand">Yummly</a>
             </div>
 
             <!-- Menu Items -->
@@ -28,7 +28,7 @@
                     <?php
                       if (isset($_SESSION['u_first'])) 
                       {
-                        echo '<li><a href="snapit.php">Snap It!</a></li>';
+                        echo '<li><a href="ingred.php">SuperCook</a></li>';
                       }
                       else 
                       {
@@ -49,7 +49,7 @@
                         }
                         else 
                         {
-                          echo '<li><a href="#" onclick=check()>Snap It!</a></li>';
+                          echo '<li><a href="#" onclick=check()>SuperCook</a></li>';
                         }
                     ?>
                           
@@ -81,7 +81,7 @@
   <script type="text/javascript">
   function check()
   {
-    var a = confirm("Please Log-in First to use the Snap It! Feature");
+    var a = confirm("Please Log-in First to use the SuperCook Feature");
     if (a == true) 
     {
         window.location.href = "index.php";

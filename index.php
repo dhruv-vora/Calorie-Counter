@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>CalCount</title>
+    <title>Yummly</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -22,7 +22,7 @@
 
             <!-- Logo -->
             <div class="navbar-header">
-                <a href="#" class="navbar-brand">CALCOUNT</a>
+                <a href="#" class="navbar-brand">Yummly</a>
             </div>
 
             <!-- Menu Items -->
@@ -35,7 +35,7 @@
 					
                 </ul>
 				<ul class="nav navbar-nav navbar-right">
-                    <li><a href="#" onclick="alert('Please Log-in First to use the Snap It! Feature');">Snap It!</a></li> 
+                    <li><a href="#" onclick="alert('Please Log-in First to use the SuperCook Feature');">SuperCook</a></li> 
                 </ul>
             </div>
 

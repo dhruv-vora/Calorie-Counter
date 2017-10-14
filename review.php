@@ -61,7 +61,7 @@
       }
       else 
       {
-        echo '<h4 class="read">By '.$row['author_first'].' '.$row['author_last'].' and submitted on '.$row['created'].'</h4>';
+        echo '<h4  style="color: white;">By '.$row['author_first'].' '.$row['author_last'].' and submitted on '.$row['created'].'</h4>';
         echo '<br>';
         echo '<form name="review" action="include/review.php" method="POST" >  
         <input type="text" name="title" size="100" value='.$row['title'].'>
