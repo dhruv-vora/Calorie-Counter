@@ -43,7 +43,7 @@ if (isset($_POST['login']))
 				}
 				else
 				{
-					header("Location: ../snapit.php?login=success");
+					header("Location: ../ingred.php?login=success");
 				}
 				exit();
 			}

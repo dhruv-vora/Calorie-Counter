@@ -31,7 +31,7 @@
 
             <!-- Logo -->
             <div class="navbar-header">
-                <a href="#" class="navbar-brand">CALCOUNT</a>
+                <a href="#" class="navbar-brand">Yummly</a>
             </div>
 
             <!-- Menu Items -->
@@ -40,7 +40,7 @@
                     <?php
                       if (isset($_SESSION['u_first'])) 
                       {
-                        echo '<li><a href="snapit.php">Snap It!</a></li>';
+                        echo '<li><a href="ingred.php">SuperCook</a></li>';
                       }
                       else 
                       {
@@ -63,7 +63,7 @@
                     }
                     else 
                     {
-                      echo '<li><a href="#" onclick=chec(k)>Snap It!</a></li>';
+                      echo '<li><a href="#" onclick=check()>SuperCook</a></li>';
                     }
                   ?>  
               </ul>
