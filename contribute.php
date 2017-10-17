@@ -27,6 +27,7 @@
             <div>
                 <ul class="nav navbar-nav">
                      <li><a href="ingred.php">SuperCook</a></li>
+                     <li><a href="fav.php">Favourites</a></li>
                     <li class = "active"><a href="blog.php">Blog</a></li>
                     <li><a href="hungry.php">Hungry?</a></li>
                     <li><a href="contactus.php">Contact Us</a></li>

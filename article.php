@@ -41,6 +41,8 @@
                       if (isset($_SESSION['u_first'])) 
                       {
                         echo '<li><a href="ingred.php">SuperCook</a></li>';
+                        echo '<li><a href="fav.php">Favourites</a></li>';
+                    
                       }
                       else 
                       {
