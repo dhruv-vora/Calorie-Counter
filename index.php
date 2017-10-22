@@ -9,6 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script async src="//www.google-analytics.com/analytics.js"></script>
@@ -17,12 +18,12 @@
 </head>
 
 	<body>	
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default title">
         <div class="container-fluid">
 
             <!-- Logo -->
             <div class="navbar-header">
-                <a href="#" class="navbar-brand">Yummly</a>
+                <a href="#" class="navbar-brand brand">Yummly</a>
             </div>
 
             <!-- Menu Items -->
@@ -73,7 +74,7 @@
     <hr style=" border: 1px solid black;">
     <h1>Register</h1>
 
-    <form name="signup" action="include/register.php" onsubmit="validate()" method="POST">
+    <form name="signup" action="include/register.php" onsubmit="return validate()" method="POST">
         <div class="formbox">
         <input type="text" name="first" placeholder="First Name" required="required">
         <input type="text" name="last" placeholder="Last name" required="required">
@@ -124,14 +125,55 @@
 <script type="text/javascript">
   function validate()
   {
+    var regex = /^[a-zA-Z]+$/;
+    if(regex.test(document.signup.first.value) == false)
+    {
+      alert("Name must be in alphabets only");
+      document.signup.first.value="";
+      document.signup.pass.value="";
+      document.signup.newpass.value="";
+        return false;
+    }
+    if(regex.test(document.signup.last.value) == false)
+    {
+      alert("Name must be in alphabets only");
+      document.signup.last.value="";
+      document.signup.pass.value="";
+      document.signup.newpass.value="";
+      return false;
+    }
+    var p = document.signup.pass.value;
+    errors = [];
+    if (p.length < 8) 
+    {
+        errors.push("Your password must have atleast 8 characters"); 
+    }
+    if (p.search(/[a-z]/i) < 0) 
+    {
+        errors.push("Your password must contain atleast one letter.");
+    }
+    if (p.search(/[0-9]/) < 0) 
+    {
+        errors.push("Your password must contain atleast one digit."); 
+    }
+    if (errors.length > 0) 
+    {
+        alert(errors.join("\n"));
+        document.signup.pass.value="";
+        document.signup.newpass.value="";
+        return false;
+    }
     if(document.signup.pass.value!=document.signup.newpass.value)
-     { 
+    { 
       document.signup.pass.focus();
       alert("Passwords do not match");
+      document.signup.pass.value="";
+      document.signup.newpass.value="";
       return false;
-      }
-      return true();
-  }  
+    }
+        
+    return true;
+  }
 </script>
 
 </body>
