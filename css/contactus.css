@@ -1,4 +1,14 @@
-        body 
+        .title
+  {
+    font-family: Lobster,Monospace;
+    font-size: 18px;
+/*    background-color: transparent;
+*/  }
+  .brand
+  {
+    font-size: 25px;
+  }
+  body 
         {
           width: 80%;
           margin: 30px auto;

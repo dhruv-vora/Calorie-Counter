@@ -1,4 +1,14 @@
-    body {
+.title
+  {
+    font-family: Lobster,Monospace;
+    font-size: 18px;
+/*    background-color: transparent;
+*/  }
+  .brand
+  {
+    font-size: 25px;
+  }
+  body {
           width: 80%;
           margin: 30px auto;
           font-family: sans-serif;
@@ -29,16 +39,11 @@
             /*background-color: green;*/
             color: white;
         }
-        
-        /*.right
-        {
-            margin-left: 68%;
-            width: 32%;
-            height: 800px;
-            background-color: red;
-
-        }*/
         .read
         {
             color: yellow;
+        }
+        a.read:hover 
+        {
+          color: yellow; 
         }
