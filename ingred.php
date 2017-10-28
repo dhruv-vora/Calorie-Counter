@@ -9,9 +9,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-     --><link rel="stylesheet" type="text/css" href="css/contribute.css">
+    <link rel="stylesheet" type="text/css" href="css/contribute.css">
     <style>
         textarea
         {
@@ -20,13 +21,13 @@
     </style>
 </head>
     <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default title">
         <div class="container-fluid">
 
             <!-- Logo -->
             <div class="navbar-header">
-                   <a href="#" class="navbar-brand">Yummly</a>
-             </div>
+                <a href="#" class="navbar-brand brand">Yummly</a>
+            </div>
 
             <!-- Menu Items -->
             <div>

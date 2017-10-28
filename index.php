@@ -125,7 +125,7 @@
 <script type="text/javascript">
   function validate()
   {
-    var regex = /^[a-zA-Z]+$/;
+   var regex = /^[a-zA-Z]+$/;
     if(regex.test(document.signup.first.value) == false)
     {
       alert("Name must be in alphabets only");

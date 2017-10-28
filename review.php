@@ -10,21 +10,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
         <link rel="stylesheet" type="text/css" href="css/contribute.css">
-
+      <style>
+        
+      .btn{
+    width: 300px;
+    height: 40px;
+}
+#container{
+    text-align: center;
+}
+      </style>
 </head>
     <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default title">
         <div class="container-fluid">
 
             <!-- Logo -->
             <div class="navbar-header">
-                <a href="#" class="navbar-brand">CALCOUNT</a>
+                <a href="#" class="navbar-brand brand">Yummly</a>
             </div>
-
             <!-- Menu Items -->
             <div>
                 <ul class="nav navbar-nav">
@@ -64,10 +73,12 @@
         echo '<h4  style="color: white;">By '.$row['author_first'].' '.$row['author_last'].' and submitted on '.$row['created'].'</h4>';
         echo '<br>';
         echo '<form name="review" action="include/review.php" method="POST" >  
-        <input type="text" name="title" size="100" value='.$row['title'].'>
+        <input type="text" name="title" size="100" value="'.$row['title'].'">
         <textarea name="content" id="content">'.$row['body'].'</textarea>
-        <button type="submit" name="add" class="btn btn-primary btn-block btn-large">Add to Blog</button>
-        <button type="submit" name="del" class="btn btn-primary btn-block btn-large">Discard</button>
+        <div id="container">
+        <button type="submit" name="add" class="btn btn-primary btn-large">Add to Blog</button>
+        <button type="submit" name="del" class="btn btn-primary btn-large">Discard</button>
+        </div>
       </form>';
     }
     ?>

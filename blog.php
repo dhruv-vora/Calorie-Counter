@@ -9,20 +9,71 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/blog.css">
-
+    <!-- <link rel="stylesheet" type="text/css" href="css/blog.css">
+     -->
+<style>
+.title
+  {
+    font-family: Lobster,Monospace;
+    font-size: 18px;
+/*    background-color: transparent;
+*/  }
+  .brand
+  {
+    font-size: 25px;
+  }
+  body {
+          width: 80%;
+          margin: 30px auto;
+          font-family: sans-serif;
+          background-image: url("images/back2.jpg");;
+          }
+        .container
+        {
+            width: 100%;
+            height: 1000px;
+            background-color: yellow;
+        }
+        .left
+        {
+            margin-right: 50%;
+            /* background-color: grey;
+            height: 2000px;
+            min-height: 1000px;
+            */
+            overflow: hidden;
+            width: 65%;
+            float:left;
+        }
+        .article
+        {
+            padding: 5px 5px 0px 5px; 
+            /*height: 200px;
+            */overflow: hidden;
+            /*background-color: green;*/
+            color: white;
+        }
+        .read
+        {
+            color: yellow;
+        }
+        a.read:hover 
+        {
+          color: yellow; 
+        }
+</style>
 </head>
 	<body>	
-    	<nav class="navbar navbar-default">
-            <div class="container-fluid">
+    	<nav class="navbar navbar-default title">
+        <div class="container-fluid">
 
-                <!-- Logo -->
-                <div class="navbar-header">
-                    <a href="#" class="navbar-brand">Yummly</a>
-                </div>
-
+            <!-- Logo -->
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand brand">Yummly</a>
+            </div>
                 <!-- Menu Items -->
                 <div>
                     <ul class="nav navbar-nav">
@@ -78,7 +129,7 @@
 
                         echo '<hr>';
                     }
-                    if (isset($_GET['contribute'])) //checking if register parameter is present
+                    /*if (isset($_GET['contribute'])) //checking if register parameter is present
                     {
                         $contribute = mysqli_real_escape_string($conn, $_GET['contribute']);
                         if($contribute=='success')
@@ -88,7 +139,7 @@
                             echo '</script>';
                         }
                     }
-                ?>
+       */         ?>
                 
             </div>
         </div>
