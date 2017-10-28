@@ -9,18 +9,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/registered.css">
+<!--     <link rel="stylesheet" type="text/css" href="css/registered.css">
+ -->
+<style>
+        .title
+  {
+    font-family: Lobster,Monospace;
+    font-size: 18px;
+/*    background-color: transparent;
+*/  }
+  .brand
+  {
+    font-size: 25px;
+  }
+      body 
+        {
+          width: 80%;
+          margin: 30px auto;
+          font-family: sans-serif;
+          background-image: url("images/abc.jpg");
+          background-size: 100%;
+        }
+        .message
+        {
+          text-align: center;
+          margin-top: 50px;
+          color: white;
+ 
+        }
+        p
+        {
+          font-size:50px;
+          
+        }
+        .link
+        {
+          font-size: 20px;
+          color: white;
+        }
+        a.link:hover 
+        {
+          color: white; 
+        }
 
+</style>
 </head>
-  <nav class="navbar navbar-default">
+<body>
+<nav class="navbar navbar-default title">
         <div class="container-fluid">
 
             <!-- Logo -->
             <div class="navbar-header">
-                <a href="#" class="navbar-brand">Yummly</a>
+                <a href="#" class="navbar-brand brand">Yummly</a>
             </div>
-
             <!-- Menu Items -->
             <div>
                 <ul class="nav navbar-nav">
@@ -42,3 +85,5 @@
     <br>
     <a href="index.php" class="link">Please click on this link to login to your account.</a>
   </div>
+</body>
+</html>
